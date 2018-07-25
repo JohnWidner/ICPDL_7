@@ -1,0 +1,346 @@
+
+                 --Change learning_rate --
+*************************************************************************
+# Parameters
+learning_rate = 0.01
+training_iters = 5000
+display_step = 500
+n_input = 3
+
+# number of units in RNN cell
+n_hidden = 512
+
+Iter= 500, Average Loss= 7.019414, Average Accuracy= 3.60%
+['agree,', 'said', 'he,'] - [that] vs [the]
+Iter= 1000, Average Loss= 4.330379, Average Accuracy= 13.20%
+['ribbon', 'round', 'the'] - [neck] vs [cat.]
+Iter= 1500, Average Loss= 3.731059, Average Accuracy= 19.20%
+['to', 'bell', 'the'] - [cat?] vs [cat?]
+Iter= 2000, Average Loss= 3.027307, Average Accuracy= 28.40%
+['cat.', 'some', 'said'] - [this,] vs [bell]
+Iter= 2500, Average Loss= 3.278217, Average Accuracy= 28.60%
+['the', 'enemy', 'approaches'] - [us.] vs [consists]
+Iter= 3000, Average Loss= 2.878223, Average Accuracy= 33.20%
+['we', 'should', 'always'] - [know] vs [know]
+Iter= 3500, Average Loss= 2.812212, Average Accuracy= 34.40%
+['the', 'mice', 'looked'] - [at] vs [at]
+Iter= 4000, Average Loss= 2.946703, Average Accuracy= 36.00%
+['got', 'up', 'and'] - [said] vs [said]
+Iter= 4500, Average Loss= 2.269998, Average Accuracy= 42.80%
+['enemy', 'approaches', 'us.'] - [now,] vs [in]
+Iter= 5000, Average Loss= 2.888915, Average Accuracy= 38.40%
+['cat.', 'by', 'this'] - [means] vs [means]
+Optimization Finished!
+Elapsed time:  55.841477155685425 sec
+
+
+*************************************************************************
+# Parameters
+learning_rate = 0.001
+training_iters = 5000
+display_step = 500
+n_input = 3
+
+# number of units in RNN cell
+n_hidden = 512
+
+Iter= 500, Average Loss= 6.877125, Average Accuracy= 2.60%
+['a', 'young', 'mouse'] - [got] vs [said]
+Iter= 1000, Average Loss= 4.508029, Average Accuracy= 8.60%
+['if', 'we', 'could'] - [receive] vs [said]
+Iter= 1500, Average Loss= 4.094607, Average Accuracy= 11.00%
+['in', 'the', 'neighbourhood.'] - [this] vs [and]
+Iter= 2000, Average Loss= 3.094399, Average Accuracy= 22.60%
+['it', 'is', 'easy'] - [to] vs [is]
+Iter= 2500, Average Loss= 2.927753, Average Accuracy= 26.80%
+['make,', 'which', 'he'] - [thought] vs [thought]
+Iter= 3000, Average Loss= 2.600061, Average Accuracy= 27.40%
+['of', 'her', 'approach,'] - [we] vs [we]
+Iter= 3500, Average Loss= 2.529566, Average Accuracy= 37.40%
+['the', 'neighbourhood.', 'this'] - [proposal] vs [the]
+Iter= 4000, Average Loss= 2.151317, Average Accuracy= 41.40%
+['then', 'the', 'old'] - [mouse] vs [that]
+Iter= 4500, Average Loss= 1.809949, Average Accuracy= 52.20%
+['would', 'meet', 'the'] - [case.] vs [case.]
+Iter= 5000, Average Loss= 2.066246, Average Accuracy= 43.20%
+['to', 'propose', 'that'] - [a] vs [cat?]
+Optimization Finished!
+Elapsed time:  56.166521310806274 sec
+
+
+*************************************************************************
+
+# Parameters
+learning_rate = 0.0001
+training_iters = 5000
+display_step = 500
+n_input = 3
+
+# number of units in RNN cell
+n_hidden = 512
+
+Iter= 500, Average Loss= 7.536443, Average Accuracy= 3.00%
+['which', 'he', 'thought'] - [would] vs [the]
+Iter= 1000, Average Loss= 4.905618, Average Accuracy= 3.80%
+['escape', 'from', 'her.'] - [i] vs [now,]
+Iter= 1500, Average Loss= 4.308639, Average Accuracy= 7.00%
+['was', 'in', 'the'] - [neighbourhood.] vs [cat.]
+Iter= 2000, Average Loss= 3.620738, Average Accuracy= 10.40%
+['the', 'mice', 'had'] - [a] vs [a]
+Iter= 2500, Average Loss= 3.506345, Average Accuracy= 13.40%
+['he', 'had', 'a'] - [proposal] vs [said]
+Iter= 3000, Average Loss= 3.349025, Average Accuracy= 11.60%
+['if', 'we', 'could'] - [receive] vs [said]
+Iter= 3500, Average Loss= 2.911935, Average Accuracy= 19.20%
+['when', 'she', 'was'] - [about,] vs [in]
+Iter= 4000, Average Loss= 1.900956, Average Accuracy= 41.40%
+['the', 'mice', 'looked'] - [at] vs [at]
+Iter= 4500, Average Loss= 3.473283, Average Accuracy= 18.80%
+['said', 'that', 'but'] - [at] vs [very]
+Iter= 5000, Average Loss= 2.604067, Average Accuracy= 26.80%
+['enemy', 'approaches', 'us.'] - [now,] vs [in]
+Optimization Finished!
+Elapsed time:  55.92037034034729 sec
+
+
+*************************************************************************
+                 --Change training_iters --
+*************************************************************************
+# Parameters
+learning_rate = 0.01
+training_iters = 10000
+display_step = 1000
+n_input = 3
+
+# number of units in RNN cell
+n_hidden = 512
+
+Iter= 1000, Average Loss= 5.475823, Average Accuracy= 9.50%
+['if', 'we', 'could'] - [receive] vs [said]
+Iter= 2000, Average Loss= 3.414383, Average Accuracy= 28.10%
+['mouse', 'said', 'it'] - [is] vs [is]
+Iter= 3000, Average Loss= 2.796817, Average Accuracy= 36.40%
+['sly', 'and', 'treacherous'] - [manner] vs [you]
+Iter= 4000, Average Loss= 2.553311, Average Accuracy= 38.90%
+['to', 'bell', 'the'] - [cat?] vs [cat?]
+Iter= 5000, Average Loss= 2.149734, Average Accuracy= 48.40%
+['sly', 'and', 'treacherous'] - [manner] vs [you]
+Iter= 6000, Average Loss= 1.918484, Average Accuracy= 51.80%
+['got', 'up', 'and'] - [said] vs [said]
+Iter= 7000, Average Loss= 1.729299, Average Accuracy= 56.10%
+['said', 'he,', 'that'] - [our] vs [our]
+Iter= 8000, Average Loss= 1.577961, Average Accuracy= 58.00%
+['bell', 'the', 'cat?'] - [the] vs [the]
+Iter= 9000, Average Loss= 1.324484, Average Accuracy= 64.40%
+['that', 'our', 'chief'] - [danger] vs [her]
+Iter= 10000, Average Loss= 1.286089, Average Accuracy= 64.00%
+['cat?', 'the', 'mice'] - [looked] vs [looked]
+Optimization Finished!
+Elapsed time:  1.869783107439677 min
+
+*************************************************************************
+
+# Parameters
+learning_rate = 0.001
+training_iters = 10000
+display_step = 1000
+n_input = 3
+
+# number of units in RNN cell
+n_hidden = 512
+
+Iter= 1000, Average Loss= 5.714053, Average Accuracy= 7.20%
+['bell', 'be', 'procured,'] - [and] vs [her.]
+Iter= 2000, Average Loss= 3.570643, Average Accuracy= 16.60%
+['to', 'consider', 'what'] - [measures] vs [common]
+Iter= 3000, Average Loss= 2.700976, Average Accuracy= 28.20%
+['small', 'bell', 'be'] - [procured,] vs [until]
+Iter= 4000, Average Loss= 2.279163, Average Accuracy= 36.40%
+['consider', 'what', 'measures'] - [they] vs [the]
+Iter= 5000, Average Loss= 1.938356, Average Accuracy= 46.40%
+['attached', 'by', 'a'] - [ribbon] vs [ribbon]
+Iter= 6000, Average Loss= 1.678357, Average Accuracy= 53.30%
+['enemy,', 'the', 'cat.'] - [some] vs [some]
+Iter= 7000, Average Loss= 1.574580, Average Accuracy= 57.70%
+['the', 'neck', 'of'] - [the] vs [the]
+Iter= 8000, Average Loss= 1.420627, Average Accuracy= 58.50%
+['a', 'young', 'mouse'] - [got] vs [got]
+Iter= 9000, Average Loss= 1.224612, Average Accuracy= 65.40%
+['retire', 'while', 'she'] - [was] vs [was]
+Iter= 10000, Average Loss= 1.157403, Average Accuracy= 68.00%
+['had', 'a', 'proposal'] - [to] vs [to]
+Optimization Finished!
+Elapsed time:  1.898501185576121 min
+
+*************************************************************************
+
+#Parameters
+learning_rate = 0.0001
+training_iters = 10000
+display_step = 1000
+n_input = 3
+
+# number of units in RNN cell
+n_hidden = 512
+
+
+Iter= 1000, Average Loss= 6.515516, Average Accuracy= 5.10%
+['escape', 'from', 'her.'] - [i] vs [now,]
+Iter= 2000, Average Loss= 3.792705, Average Accuracy= 10.50%
+['enemy,', 'the', 'cat.'] - [some] vs [up]
+Iter= 3000, Average Loss= 3.682589, Average Accuracy= 10.40%
+['and', 'attached', 'by'] - [a] vs [who]
+Iter= 4000, Average Loss= 3.047562, Average Accuracy= 13.80%
+['mice', 'had', 'a'] - [general] vs [said]
+Iter= 5000, Average Loss= 2.879518, Average Accuracy= 22.60%
+['escape', 'from', 'her.'] - [i] vs [now,]
+Iter= 6000, Average Loss= 2.592502, Average Accuracy= 24.80%
+['had', 'a', 'general'] - [council] vs [council]
+Iter= 7000, Average Loss= 2.384757, Average Accuracy= 34.00%
+['venture,', 'therefore,', 'to'] - [propose] vs [case.]
+Iter= 8000, Average Loss= 2.554792, Average Accuracy= 25.90%
+['a', 'general', 'council'] - [to] vs [and]
+Iter= 9000, Average Loss= 2.355038, Average Accuracy= 26.20%
+['a', 'ribbon', 'round'] - [the] vs [know]
+Iter= 10000, Average Loss= 2.000694, Average Accuracy= 37.90%
+['said', 'he', 'had'] - [a] vs [a]
+Optimization Finished!
+Elapsed time:  1.8451928853988648 min
+*************************************************************************
+
+# Parameters
+learning_rate = 0.01
+training_iters = 10000
+display_step = 1000
+n_input = 2
+
+# number of units in RNN cell
+n_hidden = 512
+
+Iter= 1000, Average Loss= 4.907829, Average Accuracy= 12.10%
+['mouse', 'got'] - [up] vs [from]
+Iter= 2000, Average Loss= 3.984624, Average Accuracy= 15.00%
+['attached', 'by'] - [a] vs [could]
+Iter= 3000, Average Loss= 4.071304, Average Accuracy= 11.40%
+['enemy', 'approaches'] - [us.] vs [her]
+Iter= 4000, Average Loss= 3.629395, Average Accuracy= 16.80%
+['up', 'and'] - [said] vs [some]
+Iter= 5000, Average Loss= 2.971487, Average Accuracy= 28.10%
+['propose', 'impossible'] - [remedies.] vs [to]
+Iter= 6000, Average Loss= 3.893683, Average Accuracy= 17.70%
+['and', 'said'] - [that] vs [he]
+Iter= 7000, Average Loss= 3.547158, Average Accuracy= 21.90%
+['know', 'when'] - [she] vs [she]
+Iter= 8000, Average Loss= 3.944210, Average Accuracy= 19.70%
+['the', 'enemy'] - [approaches] vs [you]
+Iter= 9000, Average Loss= 4.281791, Average Accuracy= 17.90%
+['proposal', 'to'] - [make,] vs [said]
+Iter= 10000, Average Loss= 3.636546, Average Accuracy= 26.90%
+['consider', 'what'] - [measures] vs [a]
+Optimization Finished!
+Elapsed time:  1.4143709858258566 min
+
+*****************************************************************************
+
+# Parameters
+learning_rate = 0.01
+training_iters = 10000
+display_step = 1000
+n_input = 4
+
+# number of units in RNN cell
+n_hidden = 512
+
+
+Iter= 1000, Average Loss= 5.462278, Average Accuracy= 12.30%
+['said', 'he,', 'that', 'our'] - [chief] vs [and]
+Iter= 2000, Average Loss= 3.121458, Average Accuracy= 37.00%
+['should', 'always', 'know', 'when'] - [she] vs [she]
+Iter= 3000, Average Loss= 2.789080, Average Accuracy= 46.50%
+['to', 'consider', 'what', 'measures'] - [they] vs [enemy,]
+Iter= 4000, Average Loss= 2.913602, Average Accuracy= 46.70%
+['her.', 'i', 'venture,', 'therefore,'] - [to] vs [in]
+Iter= 5000, Average Loss= 3.109910, Average Accuracy= 48.70%
+['all', 'very', 'well,', 'but'] - [who] vs [applause,]
+Iter= 6000, Average Loss= 2.481275, Average Accuracy= 53.50%
+['and', 'some', 'said', 'that'] - [but] vs [but]
+Iter= 7000, Average Loss= 3.012889, Average Accuracy= 51.40%
+['receive', 'some', 'signal', 'of'] - [her] vs [her]
+Iter= 8000, Average Loss= 2.885297, Average Accuracy= 49.30%
+['and', 'could', 'easily', 'retire'] - [while] vs [while]
+Iter= 9000, Average Loss= 2.911567, Average Accuracy= 52.10%
+['ago,', 'the', 'mice', 'had'] - [a] vs [a]
+Iter= 10000, Average Loss= 2.886164, Average Accuracy= 54.20%
+['the', 'case.', 'you', 'will'] - [all] vs [all]
+Optimization Finished!
+Elapsed time:  2.2768307010332745 min
+
+*****************************************************************************8
+# Parameters
+learning_rate = 0.01
+training_iters = 10000
+display_step = 1000
+n_input = 5
+
+# number of units in RNN cell
+n_hidden = 512
+
+Iter= 1000, Average Loss= 6.779287, Average Accuracy= 6.60%
+['some', 'said', 'that', 'but', 'at'] - [last] vs [and]
+Iter= 2000, Average Loss= 3.834139, Average Accuracy= 26.20%
+['had', 'a', 'proposal', 'to', 'make,'] - [which] vs [which]
+Iter= 3000, Average Loss= 3.076056, Average Accuracy= 38.50%
+['escape', 'from', 'her.', 'i', 'venture,'] - [therefore,] vs [in]
+Iter= 4000, Average Loss= 2.625318, Average Accuracy= 48.60%
+['easily', 'retire', 'while', 'she', 'was'] - [in] vs [in]
+Iter= 5000, Average Loss= 2.374839, Average Accuracy= 55.90%
+['the', 'cat?', 'the', 'mice', 'looked'] - [at] vs [at]
+Iter= 6000, Average Loss= 1.760421, Average Accuracy= 66.30%
+['general', 'council', 'to', 'consider', 'what'] - [measures] vs [measures]
+Iter= 7000, Average Loss= 2.338980, Average Accuracy= 61.90%
+['agree,', 'said', 'he,', 'that', 'our'] - [chief] vs [their]
+Iter= 8000, Average Loss= 2.158559, Average Accuracy= 65.40%
+['manner', 'in', 'which', 'the', 'enemy'] - [approaches] vs [approaches]
+Iter= 9000, Average Loss= 1.996858, Average Accuracy= 66.00%
+['i', 'venture,', 'therefore,', 'to', 'propose'] - [that] vs [that]
+Iter= 10000, Average Loss= 1.836924, Average Accuracy= 69.90%
+['about,', 'and', 'could', 'easily', 'retire'] - [while] vs [while]
+Optimization Finished!
+Elapsed time:  2.819764804840088 min
+
+
+********************************************************************************
+
+
+# Parameters
+learning_rate = 0.01
+training_iters = 10000
+display_step = 1000
+n_input = 8
+
+# number of units in RNN cell
+n_hidden = 512
+
+
+Iter= 1000, Average Loss= 7.417822, Average Accuracy= 7.30%
+['at', 'last', 'a', 'young', 'mouse', 'got', 'up', 'and'] - [said] vs [said]
+Iter= 2000, Average Loss= 4.792103, Average Accuracy= 20.30%
+['enemy,', 'the', 'cat.', 'some', 'said', 'this,', 'and', 'some'] - [said] vs [said]
+Iter= 3000, Average Loss= 2.595128, Average Accuracy= 54.50%
+['chief', 'danger', 'consists', 'in', 'the', 'sly', 'and', 'treacherous'] - [manner] vs [manner]
+Iter= 4000, Average Loss= 2.293770, Average Accuracy= 58.80%
+['make,', 'which', 'he', 'thought', 'would', 'meet', 'the', 'case.'] - [you] vs [you]
+Iter= 5000, Average Loss= 1.729544, Average Accuracy= 69.20%
+['agree,', 'said', 'he,', 'that', 'our', 'chief', 'danger', 'consists'] - [in] vs [applause,]
+Iter= 6000, Average Loss= 1.872520, Average Accuracy= 64.60%
+['will', 'all', 'agree,', 'said', 'he,', 'that', 'our', 'chief'] - [danger] vs [danger]
+Iter= 7000, Average Loss= 1.020848, Average Accuracy= 78.60%
+['you', 'will', 'all', 'agree,', 'said', 'he,', 'that', 'our'] - [chief] vs [always]
+Iter= 8000, Average Loss= 1.177359, Average Accuracy= 75.80%
+['i', 'venture,', 'therefore,', 'to', 'propose', 'that', 'a', 'small'] - [bell] vs [is]
+Iter= 9000, Average Loss= 1.097924, Average Accuracy= 77.00%
+['of', 'the', 'cat.', 'by', 'this', 'means', 'we', 'should'] - [always] vs [of]
+Iter= 10000, Average Loss= 0.782667, Average Accuracy= 84.90%
+['neighbourhood.', 'this', 'proposal', 'met', 'with', 'general', 'applause,', 'until'] - [an] vs [an]
+Optimization Finished!
+Elapsed time:  4.4626305063565574 min
